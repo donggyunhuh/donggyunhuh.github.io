@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "2022/03/11 컴알"
 date:   2022-03-11 09:57:44 +0900
 ---
@@ -20,7 +20,10 @@ date:   2022-03-11 09:57:44 +0900
 
 * 'git branch'
 * 'git checkout'
-
 * 'git reset' 
 
-1.  dddd 1
+# github 블로그
+1. git init 
+2. git add . 
+3. git commit - m[]
+4. git push -u origin main
