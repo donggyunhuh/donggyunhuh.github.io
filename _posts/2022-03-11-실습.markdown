@@ -5,22 +5,22 @@ date:   2022-03-11 09:57:44 +0900
 ---
 
 
-* 'git init [directory]'
-* 'git clone [repository]'
+* git init [directory]
+* git clone [repository]
 
 # git 
 
-* 'git pull' : github 다운로드
-* 'git add .' 
-* 'git commit -m"[commit message]" '
-* 'git push' : github 업로드
+* git pull : github 다운로드
+* git add .
+* git commit -m"[commit message]" 
+* git push : github 업로드
 
-* 'git status' 
-* 'git log'
+* git status
+* git log
 
-* 'git branch'
-* 'git checkout'
-* 'git reset' 
+* git branch
+* git checkout
+* git reset
 
 # github 블로그 오류 대처법
 1. git pull origin main --allow-unrelated-histories   
@@ -31,13 +31,13 @@ date:   2022-03-11 09:57:44 +0900
 >hint: Updates were rejected because the tip of your current branch is behind
 >hint: its remote counterpart. Integrate the remote changes (e.g.
 >hint: 'git pull ...') before pushing again.
->hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+>hint: See the 'Note about fast-forwards' in 'git push --help' for details.   
 
 
-위 오류 발생시 사용합니다. git pull 명령어로 깃허브 내의 파일과 로컬 파일을 병합시킵니다.
+위 오류 발생시 사용합니다. git pull 명령어로 깃허브 내의 파일과 로컬 파일을 병합시킵니다.  
 
 2. 순차적으로 git 명령어를 입력합니다.
 > git add .
->>git status (확인용)
->>>git commit -m "메세지"
->>>>git push -u origin main   <-- 여기서 main은 jejkyl 테마마다 다를 수 있으며 github branch 확인해야 합니다. 
+>git status (확인용)
+>git commit -m "메세지"
+>git push -u origin main   <-- github branch 이름 확인
