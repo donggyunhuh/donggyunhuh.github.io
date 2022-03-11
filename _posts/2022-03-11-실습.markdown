@@ -23,7 +23,7 @@ date:   2022-03-11 09:57:44 +0900
 * git reset
 
 # github 블로그 오류 대처법
-1. git pull origin main --allow-unrelated-histories   
+1. git pull origin main ---allow-unrelated-histories   
 
 
 ![error](https://github.com/donggyunhuh/donggyunhuh.github.io/blob/main/error1.png?raw=true)
